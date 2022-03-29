@@ -1,11 +1,10 @@
 # Styleline
 
-【English / [日本語](./README_JP.md)】
+【[English](./README.md) / 日本語】
 
 [![Deno docs](https://img.shields.io/badge/deno-docs-green?logo=deno)](https://doc.deno.land/https://raw.githubusercontent.com/windchime-yk/styleline/main/mod.ts)
 
-Deno module that allows CSS elements to be written in object format in the style
-attribute of HTML elements.
+HTML要素のstyle属性にCSS要素をオブジェクト形式で記述できるようにするDenoモジュール。
 
 ## 利用方法
 

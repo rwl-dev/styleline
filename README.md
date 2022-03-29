@@ -1,0 +1,3 @@
+# Styleline
+
+styleタグにCSS要素をオブジェクト形式で直書きするDenoモジュール

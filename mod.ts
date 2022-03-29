@@ -8,6 +8,11 @@ const removeUppercase = (prop: string) => {
   } else return prop;
 };
 
+/**
+ * CSSルール記述のラッパー関数
+ */
+export const properties = (style: CSS.Properties): CSS.Properties => style;
+
 export const convertStyle = (style: CSS.Properties): string => {
   const obj = Object(style);
   let styleString = "";

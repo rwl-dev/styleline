@@ -1,7 +1,7 @@
 import type { CSS } from "./deps.ts";
 
 /**
- * 文字列内のUppercaseを判別し、Lowercaseに変換する
+ * Determine uppercase and convert to lowercase and hyphen
  */
 const removeUppercase = (prop: string) => {
   const uppercaseRegex = /([A-Z])/g;
@@ -11,12 +11,12 @@ const removeUppercase = (prop: string) => {
 };
 
 /**
- * CSSルール記述のラッパー関数
+ * Wrapper function for CSS rule descriptions
  */
 export const properties = (style: CSS.Properties): CSS.Properties => style;
 
 /**
- * CSSルールのObjectをstyle属性に利用できる文字列に変換
+ * Convert CSS rule Object to a string that can be used for style attributes
  */
 export const convertStyle = (style: CSS.Properties): string => {
   const obj = Object(style);

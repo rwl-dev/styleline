@@ -7,7 +7,16 @@
 Deno module that allows CSS elements to be written in object format in the style
 attribute of HTML elements.
 
-## 利用方法
+## Notice
+
+This module does not support pseudo-classes and pseudo-elements. This is due to
+the nature of the direct description in the style attribute.
+
+In the future, it will be changed to output class selectors. Instead of
+describing them directly in the style attribute, they are described in the style
+element.
+
+## Usage
 
 ```typescript
 import {
@@ -16,7 +25,11 @@ import {
 } from "https://pax.deno.dev/windchime-yk/styleline@{VERSION}/mod.ts";
 ```
 
-## 利用例
+## Permission
+
+Unneeded.
+
+## Sample
 
 ```tsx
 /** @jsx h */
